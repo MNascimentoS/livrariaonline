@@ -1,0 +1,251 @@
+body {
+    overflow-x: hidden;
+    width: auto;
+    height: 100vh;
+    background-position: top 100px;
+    background-position: center;
+    background-size:cover;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#cabecalho #empresa {
+    visibility: hidden;
+    position: absolute;
+}
+
+#cabecalho #menu {
+    background-color: rgba(0,0,0,.7);
+    margin: -10px -10px 0px -10px;
+}
+
+#cabecalho #menu_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#cabecalho li.menu_item {
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#cabecalho a.menu_link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+#cabecalho a.menu_link:hover {
+    background-color: rgba(0,159,171,1);
+}
+
+#cabecalho #menu #carrinho {
+    float: right;
+    padding-top: 4px;
+    padding-right: 10px;
+    margin-bottom: -10px;
+    transition: .4s;
+}
+
+#cabecalho #menu #carrinho:hover {
+    background-color: rgba(0,159,171,1);
+}
+
+#cabecalho #menu #carrinho img {
+    width: 30px;
+    height: auto;
+}
+
+#cabecalho #menu #carrinho h2 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#cabecalho #logo {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#pagina {
+    position:relative;
+    display:block;
+    background-color: white;
+    margin: 0px -10px 0px -10px;
+    padding-bottom: 20px;
+    margin-bottom: -10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px -2px 5px rgba(0,0,0,.3);
+}
+
+#pagina h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#pagina a {
+    padding-top: 10px;
+}
+
+.livro {
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.livro_cedula {
+    float: left;
+}
+.livro_titulo {
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.livro_image {
+    width: 150px;
+    height: 200px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.3);
+}
+
+.livro_preco {
+    font-size: 14px;
+    margin-top: -2px;
+    margin-bottom: -20px;
+}
+
+.botao_comprar {
+    background-color: rgba(0,159,171,1);
+    margin-top: -5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.3);
+    transition: .4s;
+}
+
+.botao_comprar:hover {
+    background-color: rgba(0,159,171,1);
+    margin-top: -5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+
+.livro_comprar {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#rodape1 {
+    background: rgba(0,159,171,1);
+    position: relative;
+    display:block;
+    margin: 0px -10px 0px -10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px -2px 5px rgba(0,0,0,.1);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#rodape1 h1 {
+    font-size: 14px;
+    padding-bottom: -10px;
+}
+
+#rodape1 .menu {
+    list-style-type: none;
+    margin: 0;
+    margin-left: -15px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#rodape1 .menu_item {
+    float: left;
+    font-size: 11px;
+    color: white;
+}
+
+#rodape1 .menu_link {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#rodape1 .menu_link:hover {
+    text-decoration: underline
+}
+
+#rodape2 {
+    background: #E0E0E0;
+    position: relative;
+    display:block;
+    margin: 0px -10px 0px -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 120vh;
+    box-shadow: 0px -2px 5px rgba(0,0,0,.1);
+    color: #424242;
+    font-family: 'Roboto', sans-serif; 
+}
+
+#rodape2 h1 {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+#rodape2 #pagamento th {
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+#rodape2 #pagamento img {
+    width: 30px;
+    height: auto;
+}
+
+#rodape3 {
+    background: white;
+    position: relative;
+    display:block;
+    margin: 0px -10px 0px -10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px -2px 5px rgba(0,0,0,.1);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#rodape3 h1 {
+    color: rgba(0,159,171,1);
+    font-size: 18px;
+}   
+
+#rodape3 h2 {
+    font-size: 11px;
+}
+
+#rodape3 h3 {
+    font-size: 8px;
+}
+
+#rodape3 a {
+    color: rgba(0,159,171,1);
+    text-decoration: none;
+}
